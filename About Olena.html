@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>        
+        <meta charset="UTF-8">
+        <title>Olena's personal page.</title>-
+        <link rel="stylesheet" type= "text.css" href="my_css.css">
+    </head>
+
+ <body>
+
+       <style>
+.flex {
+               display:flexbox;
+        }
+.main{ 
+    display: flex;
+    justify-content: center;
+}
+.two{
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.three{
+    display: flex;
+    justify-content: center; 
+    
+}
+.fhor{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.main div{
+border: 1px solid #2c2d31;
+padding: 12px;
+}
+.box-1{
+    width: 31%;
+    background-color: rgb(252, 247, 239);
+}
+.box-2{
+    width: 31%;
+    background-color: rgb(252, 247, 239);
+}
+.two div{
+   border: 1px solid rgb(231, 182, 182);   
+}
+.box-3{
+    background-color: rgb(224, 66, 98);
+}
+.box-5{
+    border: 1px solid rgb(248, 237, 237); 
+}
+.box-6 {
+    background-color: rgb(0, 183, 255) ;
+    font-size:18px;
+}
+.box-7{
+    background-color: rgba(255, 255, 0, 0.445);
+
+}
+.three div{
+    border: 1px solid;color: rgb(25, 46, 4);
+    padding: 12px;
+}
+.box-8{
+    width: 20%;
+    background-color: rgb(252, 247, 239);
+}
+.box-9{
+width: 20%;
+background-color: rgb(252, 247, 239);
+}
+
+    </style>
+
+        <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+            <script> // Установка размера картинки посредством jQuery
+            $('img.class').width(100).height(50);
+            </script> 
+
+     <div class="two">
+        <div class="box-3">
+            <h1> About Olena.</h1>
+        </div>
+        <div class="box-7">
+            <h2 id="one"> Welcome to my site,  </h2>
+                <script>
+                    var name = prompt("What is your name?");  
+                      document.getElementById('one').innerHTML += " " + name + "!";
+                 </script>               
+        </div>
+        </div>
+    <div class="three"> 
+         <div class="box-8">
+            <img src="24961.JPG" width="250" height="150" alt= "It's Ukrainian flag." title="Ukrainian flag!" >
+            <p>The current <b>Ukrainian flag</b> consists of two horizontal bands of yellow and blue, the colors represent the wide blue skies and the yellow represents the wheat fields that characterize the country. From a psychological point of view, blue symbolizes calm, whilst yellow symbolizes joy. </p>
+    </div>
+        <div class="box-4">
+            <img src="My face 2n.JPG" width="300" height="400" alt= "Hello, I'm Olena." title="It's me!" >
+        </div>
+        <div class="box-9">
+            <img src="münchen.jpg" width="250" height="150" alt= "It's München." title="München!" >
+            <p><b>Marienplatz with New Town Hall </b> built 1867 - 1909 in Flanders Gothic style; its facade, over 300 feet in length, features strikingly elaborate stone ornamentation. Its 260-foot tower with carillon is, with St. Peter's Church and the twin towers of the Cathedral, one of the most distinctive features of the city's skyline. </p>
+        </div>
+    </div>
+        <div class="fhor">
+            <div class="box-5">
+                <a href= "My favorite food1.html"><b>My favorite food</b> that I cook myself!</a>
+            </div>
+        <div class="box-6">
+            <p>My name is <b>Olena</b>. I am 40 years old. I am from Ukraine.</p>
+        </div>    
+    </div>   
+         <div class="main">
+            <div class="box-1">
+                <p><b>I'm a former maths teacher .</b> I grad­u­at­ed from Pedagogical State University in my hometown in 2002. I studied there for 5 years and received a Specialist degree in pedagogy and methodology of secondary education, mathematics and the basics of computer science . </p>
+        </div>
+            <div class="box-2">
+                 <p><b>My children</b> go to school and I have time to learn and gain new knowledge and experience. I love learning, and this is exactly the area where everything is constantly changing, and we need to learn something new all the time. I realize it and I am ready for this.
+                </p>
+            </div>  
+    </div>
+        <script>
+             for (var i=0; i<2; i++){
+                $("h2").fadeOut(1000).fadeIn(1000);
+             }
+            $("h2").fadeOut(3000) 
+      </script>
+    
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>My favorite food</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style>
+        body {
+            padding: 1px 300px 10px 300px; 
+            border-radius: 25px;
+        }
+        section {
+            background-color: rgb(189, 232, 235);
+            margin: 30px 30px 30px 30px ;
+            padding: 20px 30px 20px 30px;
+        }
+        
+        h2  {
+            font-size: 60px;
+            text-align: left;
+            margin: auto ;
+            padding: auto;
+        }
+        #img {
+            background-color: rgb(242, 243, 235);
+            font-size: 100px;
+            color: rgb(69, 70, 129);
+            margin: 10px 5px 10px 5px;
+            padding: 40px 40px 40px 40px;
+            right; 50%: 
+            text-align: center ;
+            border-radius: 25px;
+        }
+        form {
+            text-align: center ;
+            font-size: 20px; 
+        }
+        .guess {
+            font-size: 15px;   
+        }
+    </style>
+    <section class="overlay">
+        <span>
+            <h2> Рецепт печённых пирожков !</h2>
+            <img id="img" src="img1/pirogok1.jpg" alt="рецепт пирожков">
+            <p></p>
+            <h1> <strong>Ингредиенты :</strong></h1> 
+            <ul>
+                <li>2 стаканы(400грамм)воды</li>   
+                <li>3 ст. ложки сахара</li>
+                <li>1 ч. ложка соли</li>
+                <li>40 грамм дрожжей</li>
+                <li>1 пачка ванил. сахара (8-10гр)</li>
+                <li>подсолн. масло 6 десертных ложек</li>
+                <li>мука около 600 грамм</li>
+            </ul> 
+            <hr>
+            <h1>Приготовление пирожков:</h1>
+            <p> <strong> --- </strong>Все хорошо перемешать и поставить на 45 мин.-1 час, чтобы оно подошло.</p>
+            <p> <strong> --- </strong>Потом добавлять муку, просеянную через сито и вымешивать, чтобы не бралось до рук, но чтобы не было очень густое.</p> 
+            <p> <strong> --- </strong>Резать по частям и раскатывать в жгут и этот жгут резать на равные части, раскатывать в кружочки.</p>
+            <p> <strong> --- </strong>А потом качалкой  раскатывать кружочки, заполнять их начинкой пальцами как вареники склеивать, склеиным ложить вниз на лист.</p>
+            <p> <strong> --- </strong>
+                 Между ними смазывать подс.маслом, а сверху желтком. В электр. духовке при 180 <sup> 0 </sup> C пекутся где-то 20-25 мин., но надо смотреть.</p>
+            <h1> Приятного аппетита.</h1>
+            <hr>
+            </span>
+
+        <form action="check.html" method="GET">
+
+            <label for="guess">Enter a number between 1-10 to see how many pies you can eat at one time &#9786 :</label>
+        <br>
+        <input type="number" name="guess" id="guess" min="1" max="10" required>
+        <br>
+        <input type="submit" id="submission" value="Submit">
+        </form>
+    </section>
+    </body>
+    </html>
