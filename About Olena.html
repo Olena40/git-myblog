@@ -93,6 +93,11 @@ background-color: rgb(252, 247, 239);
                 <script>
                     var name = prompt("What is your name?");  
                       document.getElementById('one').innerHTML += " " + name + "!";
+                     
+                        for (var i=0; i<2; i++) {
+                           $("h2").fadeOut(1000).fadeIn(1000);
+                     }
+                $("h2").fadeOut(3000) 
                  </script>               
         </div>
         </div>
@@ -126,12 +131,7 @@ background-color: rgb(252, 247, 239);
                 </p>
             </div>  
     </div>
-        <script>
-             for (var i=0; i<2; i++){
-                $("h2").fadeOut(1000).fadeIn(1000);
-             }
-                $("h2").fadeOut(3000) 
-      </script>
+        
     
 </body>
 
